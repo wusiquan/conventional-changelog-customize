@@ -1,0 +1,11 @@
+{
+  "name": "conventional-changelog-customize",
+  "version": "0.1.0",
+  "description": "conventional-changelog-wsq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wusiquan",
+  "license": "MIT"
+}
