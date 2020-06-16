@@ -1,3 +1,3 @@
 # conventional-changelog-customize
 
-conventional-changelog v1.1.0
+conventional-changelog-angular v5.0.10
