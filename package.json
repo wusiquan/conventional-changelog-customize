@@ -13,8 +13,6 @@
     "q": "^1.5.1"
   },
   "devDependencies": {
-    "commitizen": "^4.1.2",
-    "cz-conventional-changelog": "^3.2.0",
     "standard-version": "^8.0.0"
   },
   "config": {
