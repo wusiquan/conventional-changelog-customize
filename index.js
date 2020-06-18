@@ -8,7 +8,10 @@ const writerOpts = require("./writer-opts");
 const gitRawCommitsOpts = require("./git-raw-commit");
 
 let context = {
-  commit: 'commit'
+  // gitlab提交链接为/commit/xxx, github提交链接为/commits/xxx 
+  commit: 'commit',
+  // jira的bug的前缀地址
+  jiraUrlPrefix: 'http://jira.intra.gomeplus.com/browse'
 };
 
 module.exports = Q.all([
@@ -26,7 +29,7 @@ module.exports = Q.all([
     gitRawCommitsOpts
   ) => {
     return {
-      // context,
+      context,
       conventionalChangelog,
       parserOpts,
       recommendedBumpOpts,
