@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/wusiquan/conventional-changelog-customize/compare/v0.1.3...v0.1.4) (2020-06-29)
+
+
+### Bug Fixes
+
+* **commit.hbs:** 增加commit换行 ([100c7d6](https://github.com/wusiquan/conventional-changelog-customize/commit/100c7d62ccbda21782d58d529bc20939c746f8a5))
+
 ### [0.1.3](https://github.com/wusiquan/conventional-changelog-customize/compare/v0.1.2...v0.1.3) (2020-06-18)
 
 ### 0.1.2 (2020-06-18)
