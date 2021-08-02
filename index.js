@@ -11,7 +11,9 @@ let context = {
   // gitlab提交链接为/commit/xxx, github提交链接为/commits/xxx 
   commit: 'commit',
   // jira的bug的前缀地址
-  jiraUrlPrefix: 'http://jira.intra.gomeplus.com/browse'
+  // jiraUrlPrefix: 'http://jira.intra.gomeplus.com/browse'
+  // http://chandao.gome.inc/bug-view-3926.html
+  chandaoUrlPrefix: 'http://chandao.gome.inc/bug-view'
 };
 
 module.exports = Q.all([
